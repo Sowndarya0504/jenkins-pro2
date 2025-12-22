@@ -5,10 +5,9 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.sownd</groupId>
-    <artifactId>car-webapp</artifactId>
+    <groupId>com.sowndarya</groupId>
+    <artifactId>static-webapp</artifactId>
     <version>1.0</version>
-    <packaging>jar</packaging>
 
     <build>
         <plugins>
@@ -19,17 +18,19 @@
                 <executions>
                     <execution>
                         <phase>test</phase>
-                        <configuration>
-                            <target>
-                                <echo message="car webapp build test passed ✔"/>
-                            </target>
-                        </configuration>
                         <goals>
                             <goal>run</goal>
                         </goals>
+                        <configuration>
+                            <target>
+                                <echo message="Static website test passed ✔"/>
+                            </target>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
         </plugins>
     </build>
+
 </project>
+
